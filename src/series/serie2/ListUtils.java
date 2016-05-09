@@ -8,6 +8,7 @@ public class ListUtils {
 
     public static <E> E getKBiggest(Node<E> list, int k, Comparator<E> cmp) {
         //throw new UnsupportedOperationException();
+
         Node<E> k_biggest = list;
         int cnt = 0;
         while(cnt < k && list != null){
